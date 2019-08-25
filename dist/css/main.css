@@ -5,7 +5,12 @@
     font-size: 3rem !important;
     text-align: center; }
   .jumbotron-fluid .container p {
-    font-size: 2rem !important; } }
+    font-size: 2rem !important; }
+  footer {
+    height: 100% !important; }
+    footer iframe {
+      width: 100%;
+      padding-bottom: 50px; } }
 
 nav img {
   width: 250px; }
