@@ -1,3 +1,12 @@
+@media screen and (max-width: 500px) {
+  nav img {
+    width: 200px !important; }
+  .jumbotron-fluid .container h1 {
+    font-size: 3rem !important;
+    text-align: center; }
+  .jumbotron-fluid .container p {
+    font-size: 2rem !important; } }
+
 nav img {
   width: 250px; }
 
@@ -65,3 +74,26 @@ nav .active {
       background: #163a78;
       color: white;
       border: white 2px solid; }
+
+#home {
+  padding: 200px 0px; }
+  #home .card-body .card-text {
+    font-size: 2rem;
+    text-align: center;
+    font-family: "Oswald", sans-serif; }
+  #home .card-body .btn-outline-primary {
+    width: 100% !important;
+    color: #163a78;
+    border: 1px solid #163a78; }
+    #home .card-body .btn-outline-primary:hover {
+      color: white;
+      background: #163a78; }
+
+footer {
+  height: 400px;
+  background: #333;
+  padding-top: 100px; }
+  footer p {
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    text-align: center; }

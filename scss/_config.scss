@@ -1,0 +1,51 @@
+// Media Query Mixin
+
+@mixin mediaSm {
+  @media screen and (max-width: 500px) {
+    @content;
+  }
+}
+
+@mixin mediaMd {
+  @media screen and (max-width: 768px) {
+    @content;
+  }
+}
+
+@mixin mediaLg {
+  @media screen and (min-width: 769px) and (max-width: 1170px) {
+    @content;
+  }
+}
+
+@mixin mediaXl {
+  @media screen and (min-width: 1171px) {
+    @content;
+  }
+}
+
+@include mediaXl {
+}
+@include mediaLg {
+}
+@include mediaMd {
+}
+@include mediaSm {
+  nav {
+    img {
+      width: 200px !important;
+    }
+  }
+
+  .jumbotron-fluid {
+    .container {
+      h1 {
+        font-size: 3rem !important;
+        text-align: center;
+      }
+      p {
+        font-size: 2rem !important;
+      }
+    }
+  }
+}
